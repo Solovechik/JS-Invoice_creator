@@ -1,2 +1,2 @@
 # JS
-Invoice_creator
+Invoice creator
