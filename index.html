@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="./style.css" />
+        <title>Invoice creator</title>
+    </head>
+    <body>
+        <header>
+            <h1>Invoice creator</h1>
+            <h3>Thanks for choosing GoodCorp, LLC!</h3>
+        </header>
+        <div id="main">
+            <div id="services"></div>
+            <p id="notification"></p>
+            <div class="col-title">
+                <p>TASK</p>
+                <p>TOTAL</p>
+            </div>
+            <div class="list">
+                <ul id="task-list"></ul>
+            </div>
+            <hr />
+            <div class="col-title">
+                <p>NOTES</p>
+                <p>TOTAL AMOUNT</p>
+            </div>
+            <div class="list">
+                <p id="notes"></p>
+                <p id="total-price">$0</p>
+            </div>
+            <button id="invoice-btn"><img src="./images/Mail.png"> Send invoice</button>
+        </div>
+        <script src="./script.js"></script>
+    </body>
+</html>

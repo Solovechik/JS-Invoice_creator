@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: #FFFFFF;
+    font-family: Inter, sans-serif;
+}
+
+h1 {
+    font-weight: 800;
+    font-size: 40px;
+}
+
+h3 {
+    margin-top: 9px;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    width: 550px;
+    height: 190px;
+    background-color: #3A69D2;
+    text-align: center;
+}
+
+hr {
+    border: none;
+    height: 1px;
+    margin: 10px 0;
+    background-color: #C3C6DB;
+}
+
+li {
+    width: 100%;
+    list-style: none;
+    margin: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+#invoice-btn {
+    padding-top: 12px;
+    display: flex;
+    justify-content: center;
+    margin: 50px 0;
+    height: 45px;
+    background-color: #3A69D2;
+    border: none;
+    border-radius: 7px;
+    font-weight: 500;
+    font-size: 16px;
+    width: 100%;
+}
+
+#invoice-btn:hover {
+    background-color:  blue;
+}
+
+#main {
+    padding: 40px;
+    width: 550px;
+    min-height: 720px;
+    background-color: #1F2937;
+}
+
+#notes {
+    font-size: 10px;
+    color: #F5F5F5;
+}
+
+#notification {
+    margin: 10px 0;
+    height: 10px;
+    color: yellowgreen;
+    text-align: center;
+}
+
+#services {
+    display: flex;
+    justify-content: space-between;
+}
+
+#task-list {
+    width: 100%;
+    font-size: 18px;
+}
+
+#total-price {
+    font-size: 30px;
+}
+
+.col-title {
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+    margin: 40px 0 10px 0;
+    font-size: 10px;
+    color: #F5F5F5;
+}
+
+.list {
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.remove-btn {
+    margin-left: 10px;
+    background-color: transparent;
+    border: none;
+    color: #D5D4D8;
+    font-size: 8px;
+}
+
+.service-btn {
+    font-weight: 500;
+    font-size: 14px;
+    width: 30%;
+    padding: 12px 10px;
+    border: 1px solid #D5D4D8;
+    color: #4A4E74;
+    background-color: #D1D4F4;
+    border-radius: 7px;
+}
+
+.service-btn:hover {
+    background-color: white;
+}
